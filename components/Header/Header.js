@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <nav className="bg-white border-gray-200 rounded dark:bg-gray-900 border-b-2">
+        <nav className="justify-center items-center bg-gradient-to-r from-[#f5e6ff] to-white border-gray-200 rounded dark:bg-gray-900 border-b-2 md:border-0 py-5 lg:py-0">
             <div className="mx-5 lg:mx-20 flex flex-wrap items-center justify-between">
                 <a href="https://flowbite.com/" className="flex items-center">
                     <span className="self-center text-xl whitespace-nowrap dark:text-white bg-[#6765F0] text-white p-2 rounded-lg">Gym</span>
@@ -11,7 +11,7 @@ export default function Header() {
                     <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clipRule="evenodd"></path></svg>
                 </button>
                 <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                    <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 text-black items-center">
+                    <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 text-black items-center">
                         <li>
                             <a href="#" className=" text-black block py-2 pl-3 pr-4 bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white" aria-current="page">Home</a>
                         </li>

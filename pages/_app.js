@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import { Poppins } from '@next/font/google'
 import 'flowbite';
+import 'swiper/css';
 
 const poppins = Poppins({
   subsets: ['latin'],
