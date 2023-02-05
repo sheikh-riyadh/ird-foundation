@@ -30,7 +30,7 @@ export default function Banner() {
 
                     </div>
                 </div>
-                <h2 className="mb-5">Brands:</h2>
+                <h2 className="mb-5 font-bold">Brands:</h2>
                 <Swiper
                     slidesPerView={1}
                     loop={true}

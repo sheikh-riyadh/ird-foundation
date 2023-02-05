@@ -5,7 +5,7 @@ export default function Healthy() {
         <div className="mx-5 lg:mx-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10 my-24">
                 <div>
-                    <h2 className="text-3xl lg:text-5xl text-start font-bold lg:font-normal leading-relaxed">Healthy in side fresh out side</h2>
+                    <h2 className="text-3xl lg:text-5xl text-start lg:font-normal leading-relaxed">Healthy in side fresh out side</h2>
                 </div>
                 <div>
                     <p className="text-[#7B787C] text-xs lg:text-base tracking-wider">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. Healthy life makes you more excited to live the day</p>
