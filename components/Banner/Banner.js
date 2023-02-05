@@ -7,8 +7,8 @@ import SwiperCore, { Autoplay } from 'swiper';
 export default function Banner() {
     SwiperCore?.use([Autoplay])
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen  px-5 lg:px-20 justify-center items-center bg-gradient-to-r from-[#f5e6ff] to-white">
-            <div className="my-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen  px-5 lg:px-20 justify-center items-center bg-gradient-to-r from-[#f2dfff] to-white">
+            <div className="my-12">
                 <h1 className="text-3xl lg:text-6xl">Healthy in side <span className="text-[#6765F0] font-bold">fresh</span> out side</h1>
                 <p className="my-6">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
                 <div className="lg:w-8/12 grid gap-5 grid-cols-2 mb-16">
@@ -46,7 +46,7 @@ export default function Banner() {
                 </Swiper>
             </div>
             <div>
-                <Image alt="Banner_image" src={'/assets/hero-trainer.png'} width={600} height={600}></Image>
+                <Image alt="Banner_image" src={'/assets/hero-trainer.png'} width={800} height={600}></Image>
             </div>
         </div>
     )
