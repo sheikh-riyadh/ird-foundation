@@ -1,7 +1,7 @@
 export default function Header() {
     return (
-        <nav className="justify-center items-center bg-gradient-to-r from-[#f2dfff] to-white border-gray-200 rounded dark:bg-gray-900 border-b-2 md:border-0 py-5 lg:py-3">
-            <div className="mx-5 lg:mx-20 flex flex-wrap items-center justify-between">
+        <nav className="justify-center items-center bg-gradient-to-r from-[#fcf7ff] to-white border-gray-200 rounded dark:bg-gray-900 border-b-2 md:border-0 py-5 lg:py-3">
+            <div className="mx-5 lg:mx-24 flex flex-wrap items-center justify-between">
                 <a href="https://flowbite.com/" className="flex items-center">
                     <span className="self-center text-xl whitespace-nowrap dark:text-white bg-[#6765F0] text-white p-2 rounded-lg">Gym</span>
                     <span className="self-center text-xl whitespace-nowrap dark:text-white text-[#6765F0] ml-1">baran</span>

@@ -7,12 +7,12 @@ import SwiperCore, { Autoplay } from 'swiper';
 export default function Banner() {
     SwiperCore?.use([Autoplay])
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen  px-5 lg:px-20 justify-center items-center bg-gradient-to-r from-[#f2dfff] to-white">
+        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen px-5 lg:px-24 justify-center items-center bg-gradient-to-r from-[#fcf7ff] to-white">
             <div className="my-12">
-                <h1 className="text-3xl lg:text-6xl">Healthy in side <span className="text-[#6765F0] font-bold">fresh</span> out side</h1>
-                <p className="my-6">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
+                <h1 className="text-3xl lg:text-6xl font-bold">Healthy in side <span className="text-[#6765F0]">fresh</span> out side</h1>
+                <p className="my-6 text-[#7B787C] text-xs lg:text-base tracking-wider leading-tight">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
                 <div className="lg:w-8/12 grid gap-5 grid-cols-2 mb-16">
-                    <div className="flex justify-between items-center py-3 px-5 lg:py-4 lg:px-6 bg-[#264373] rounded-lg">
+                    <div className="flex justify-between items-center py-3 px-5 lg:py-4 lg:px-6 bg-[#264373] rounded-lg shadow-2xl">
                         <button type="button" className="text-white font-medium text-sm text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700">
                             Get Started
                             <FaAngleRight className="bg-white text-black ml-2 lg:ml-5 text-xl p-1 rounded-full
