@@ -47,7 +47,7 @@ export default function Testimonial() {
 
                                     <div>
                                         <div className='flex gap-8 mt-10'>
-                                            <Image alt='Reviewer_image' className='rounded-xl' src={`/assets/reviewer-${value < 4 ? ++value : value}.jpg`} width={50} height={50}></Image>
+                                            <Image alt='Reviewer_image' className='rounded-xl' src={`/assets/reviewer-${value < 4 ? ++value : "3"}.jpg`} width={50} height={50}></Image>
 
                                             <div>
                                                 <h1 className='font-bold mb-3'>

@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner/Banner";
+import Footer from "@/components/Footer/Footer";
 import Header from "@/components/Header/Header";
 import Healthy from "@/components/Healthy/Healthy";
 import LoseFat from "@/components/LoseFat/LoseFat";
@@ -13,14 +14,15 @@ import 'swiper/css';
 export default function Home() {
   return (
     <>
-      <Header></Header>
-      <Banner></Banner>
-      <Healthy></Healthy>
-      <LoseFat></LoseFat>
-      <Morning></Morning>
-      <Working></Working>
-      <Program></Program>
-      <Testimonial></Testimonial>
+      <Header />
+      <Banner />
+      <Healthy />
+      <LoseFat />
+      <Morning />
+      <Working />
+      <Program />
+      <Testimonial />
+      <Footer />
     </>
   )
 }
