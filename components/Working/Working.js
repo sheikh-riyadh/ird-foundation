@@ -7,8 +7,8 @@ export default function Working() {
                 <Image alt="Banner_image" className="lg:-ml-20" src={'/assets/works-image3.png'} width={1000} height={800}></Image>
             </div>
             <div>
-                <h1 className="text-3xl lg:text-5xl leading-snug">How it works?</h1>
-                <div className="flex flex-col">
+                <h1 className="text-3xl lg:text-5xl leading-snug mb-8">How it works?</h1>
+                <div className="flex flex-col text-[#7B787C]">
                     <div className="shadow-2xl rounded-xl p-5 my-3">
                         <h1>The body becomes sick because of rarely exercise</h1>
                     </div>

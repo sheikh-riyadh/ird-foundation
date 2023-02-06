@@ -3,6 +3,7 @@ import Header from "@/components/Header/Header";
 import Healthy from "@/components/Healthy/Healthy";
 import LoseFat from "@/components/LoseFat/LoseFat";
 import Morning from "@/components/Morning/Morning";
+import Program from "@/components/Program/Program";
 import Working from "@/components/Working/Working";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <LoseFat></LoseFat>
       <Morning></Morning>
       <Working></Working>
+      <Program></Program>
     </>
   )
 }

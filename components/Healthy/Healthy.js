@@ -12,7 +12,7 @@ export default function Healthy() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-20 rounded-3xl bg-gradient-to-r from-[#6462F0] to-[#9190E9] py-8  px-8 lg:py-20 lg:px-20">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-20 rounded-3xl bg-gradient-to-r from-[#6462F0] to-[#9190E9] py-8 px-8 lg:py-20 lg:px-20">
                 <div className="flex gap-5 items-center">
                     <div className="bg-[#9291F1] p-4 rounded-xl w-16">
                         <Image src={'/assets/healthy-logo1.png'} width={30} height={30} alt="Healthy_image"></Image>
