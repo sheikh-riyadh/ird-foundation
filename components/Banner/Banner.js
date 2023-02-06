@@ -3,6 +3,7 @@ import { FaAngleRight } from "react-icons/fa";
 import { BsFillPlayFill } from "react-icons/bs";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
+import { motion } from "framer-motion";
 
 export default function Banner() {
     SwiperCore?.use([Autoplay])
@@ -11,7 +12,18 @@ export default function Banner() {
             <div className="my-12">
                 <h1 className="text-3xl lg:text-6xl font-bold">Healthy in side <span className="text-[#6765F0]">fresh</span> out side</h1>
                 <p className="my-6 text-[#7B787C] text-xs lg:text-base tracking-wider leading-tight">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
-                <div className="lg:w-8/12 grid gap-5 grid-cols-2 mb-16">
+                <motion.div className="lg:w-8/12 grid gap-5 grid-cols-2 mb-16"
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ duration: .5 }}
+                    variants={
+                        {
+                            hidden: { opacity: 0, x: -50 },
+                            visible: { opacity: 1, x: 0 }
+                        }
+                    }
+                >
                     <div className="flex justify-between items-center py-3 px-5 lg:py-4 lg:px-6 bg-[#264373] rounded-lg shadow-2xl">
                         <button type="button" className="text-white font-medium text-sm text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700">
                             Get Started
@@ -29,7 +41,7 @@ export default function Banner() {
                         </button>
 
                     </div>
-                </div>
+                </motion.div>
                 <h2 className="mb-5 font-bold">Brands:</h2>
                 <Swiper
                     slidesPerView={1}
@@ -45,9 +57,20 @@ export default function Banner() {
 
                 </Swiper>
             </div>
-            <div>
+            <motion.div
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.5 }}
+                transition={{ duration: .5 }}
+                variants={
+                    {
+                        hidden: { opacity: 0, y: -50 },
+                        visible: { opacity: 1, y: 0 }
+                    }
+                }
+            >
                 <Image alt="Banner_image" src={'/assets/hero-trainer.png'} width={800} height={600}></Image>
-            </div>
+            </motion.div>
         </div>
     )
 }

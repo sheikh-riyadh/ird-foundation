@@ -5,6 +5,9 @@ import LoseFat from "@/components/LoseFat/LoseFat";
 import Morning from "@/components/Morning/Morning";
 import Program from "@/components/Program/Program";
 import Working from "@/components/Working/Working";
+/* Vendor files */
+import 'flowbite';
+import 'swiper/css';
 
 export default function Home() {
   return (
