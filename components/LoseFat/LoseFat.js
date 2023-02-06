@@ -3,9 +3,9 @@ import Image from "next/image"
 export default function LoseFat() {
     return (
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 mx-5 lg:mx-24 gap-10 justify-center items-center my-24">
+        <div className="flex mx-5 flex-col-reverse lg:flex-row lg:mx-24 gap-10 justify-center items-center my-24">
             <div>
-                <Image alt="Banner_image" className="lg:-ml-10" src={'/assets/lose-fat-image.png'} width={800} height={600}></Image>
+                <Image alt="Banner_image" src={'/assets/lose-fat-image.png'} width={1200} height={600}></Image>
             </div>
             <div>
                 <h1 className="text-3xl lg:text-5xl leading-snug">Best full body <br /> workout to lose fat</h1>

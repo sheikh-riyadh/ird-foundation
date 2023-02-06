@@ -2,7 +2,7 @@ import { FaArrowRight } from "react-icons/fa";
 import Image from "next/image"
 export default function Morning() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 mx-5 lg:mx-24 gap-10 justify-center items-center my-24">
+        <div className="flex mx-5 flex-col lg:flex-row lg:mx-24 gap-10 justify-center items-center my-16">
             <div>
                 <h1 className="text-3xl lg:text-5xl leading-snug">Daily morning <br /> workout in home</h1>
                 <p className="my-6 text-[#7B787C] text-xs lg:text-base tracking-wider leading-tight">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
@@ -17,7 +17,7 @@ export default function Morning() {
                 </div>
             </div>
             <div>
-                <Image alt="Banner_image" src={'/assets/morning-image1.png'} width={800} height={600}></Image>
+                <Image alt="Banner_image" className="-mr-12" src={'/assets/morning-image1.png'} width={1200} height={600}></Image>
             </div>
         </div>
     )
