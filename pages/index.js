@@ -4,6 +4,7 @@ import Healthy from "@/components/Healthy/Healthy";
 import LoseFat from "@/components/LoseFat/LoseFat";
 import Morning from "@/components/Morning/Morning";
 import Program from "@/components/Program/Program";
+import Testimonial from "@/components/Testimonial/Testimonial";
 import Working from "@/components/Working/Working";
 /* Vendor files */
 import 'flowbite';
@@ -19,6 +20,7 @@ export default function Home() {
       <Morning></Morning>
       <Working></Working>
       <Program></Program>
+      <Testimonial></Testimonial>
     </>
   )
 }

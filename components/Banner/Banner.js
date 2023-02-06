@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
 import { motion } from "framer-motion";
 
+
 export default function Banner() {
     SwiperCore?.use([Autoplay])
     return (

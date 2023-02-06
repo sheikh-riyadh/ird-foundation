@@ -18,7 +18,7 @@ export default function Program() {
                     }
                 >
                     <div className="p-5 bg-gradient-to-r from-[#6462F0] to-[#9190E9] w-3/12 rounded-full">
-                        <Image src={`/assets/program-logo-1.png`} width={70} height={70}></Image>
+                        <Image alt="Logo" src={`/assets/program-logo-1.png`} width={70} height={70}></Image>
                     </div>
                     <div>
                         <h2 className="font-bold">Gets ABS in 2 weeks</h2>
@@ -38,7 +38,7 @@ export default function Program() {
                     }
                 >
                     <div className="p-5 bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF] w-3/12 rounded-full">
-                        <Image src={`/assets/program-logo-2.png`} width={70} height={70}></Image>
+                        <Image alt="Logo" src={`/assets/program-logo-2.png`} width={70} height={70}></Image>
                     </div>
                     <div>
                         <h2 className="font-bold">25 Mins full body workout</h2>
@@ -58,7 +58,7 @@ export default function Program() {
                     }
                 >
                     <div className="p-5 bg-gradient-to-r from-[#DD69C7] to-[#FFC0F3] w-3/12 rounded-full">
-                        <Image src={`/assets/program-logo-3.png`} width={70} height={70}></Image>
+                        <Image alt="Logo" src={`/assets/program-logo-3.png`} width={70} height={70}></Image>
                     </div>
                     <div>
                         <h2 className="font-bold">10 Mins toned arms workout</h2>
@@ -78,7 +78,7 @@ export default function Program() {
                     }
                 >
                     <div className="p-5 bg-gradient-to-r from-[#DD69C7] to-[#FFC0F3] w-3/12 rounded-full">
-                        <Image src={`/assets/program-logo-4.png`} width={70} height={70}></Image>
+                        <Image alt="Logo" src={`/assets/program-logo-4.png`} width={70} height={70}></Image>
                     </div>
                     <div>
                         <h2 className="font-bold">15 Mins full body fat burn</h2>
@@ -98,7 +98,7 @@ export default function Program() {
                     }
                 >
                     <div className="p-5 bg-gradient-to-r from-[#6462F0] to-[#9190E9] w-3/12 rounded-full">
-                        <Image src={`/assets/program-logo-5.png`} width={70} height={70}></Image>
+                        <Image alt="Logo" src={`/assets/program-logo-5.png`} width={70} height={70}></Image>
                     </div>
                     <div>
                         <h2 className="font-bold">25 Mins HIIT workout</h2>
@@ -118,7 +118,7 @@ export default function Program() {
                     }
                 >
                     <div className="p-5 bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF] w-3/12 rounded-full">
-                        <Image src={`/assets/program-logo-6.png`} width={70} height={70}></Image>
+                        <Image alt="Logo" src={`/assets/program-logo-6.png`} width={70} height={70}></Image>
                     </div>
                     <div>
                         <h2 className="font-bold">Intense lower Abs workout</h2>
