@@ -12,6 +12,7 @@ import 'flowbite';
 import 'swiper/css';
 
 export default function Home() {
+
   return (
     <>
       <Header />
