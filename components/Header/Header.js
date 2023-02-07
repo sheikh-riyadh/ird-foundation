@@ -39,7 +39,7 @@ export default function Header() {
 
 
     return (
-        <nav className="justify-center items-center border-gray-200 rounded border-b-2 md:border-0 py-5 lg:py-3">
+        <nav className="justify-center items-center border-gray-200 rounded border-b-2 md:border-0 py-5 lg:py-3 dark:border-[#121212]">
             <div className="mx-5 lg:mx-12 xl:mx-24 flex flex-wrap items-center justify-between">
                 <a href="/" className="flex items-center">
                     <span className="self-center text-xl whitespace-nowrap dark:text-white bg-[#6765F0] text-white p-2 rounded-lg">Gym</span>
