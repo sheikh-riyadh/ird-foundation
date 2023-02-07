@@ -44,7 +44,7 @@ export default function Healthy() {
                     </motion.div>
                     <div>
                         <p className="font-bold text-base lg:text-xl mb-2 text-white ">Get that 11 line<br /> in 30 days</p>
-                        <button type="button" className="text-white text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <button type="button" className="text-white text-center inline-flex items-center">
                             Learn more
                             <FaArrowRight className="ml-3"></FaArrowRight>
                         </button>
@@ -67,7 +67,7 @@ export default function Healthy() {
                     </motion.div>
                     <div>
                         <p className="font-bold text-base lg:text-xl mb-2 text-white">14 Days <br />sherd challenge</p>
-                        <button type="button" className="text-base text-white text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <button type="button" className="text-base text-white text-center inline-flex items-center">
                             Learn more
                             <FaArrowRight className="ml-3"></FaArrowRight>
                         </button>
@@ -90,7 +90,7 @@ export default function Healthy() {
                     </motion.div>
                     <div>
                         <p className="font-bold text-base lg:text-xl mb-2 text-white">Get flat belly <br /> in 30 days</p>
-                        <button type="button" className="text-white text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <button type="button" className="text-white text-center inline-flex items-center">
                             Learn more
                             <FaArrowRight className="ml-3"></FaArrowRight>
                         </button>

@@ -32,13 +32,13 @@ export default function Working() {
                         }
                     }
                 >
-                    <div className="shadow-2xl rounded-xl p-5 my-3">
+                    <div className="shadow-2xl dark:shadow-slate-900  rounded-xl p-5 my-3 dark:bg-gray-50">
                         <h1>The body becomes sick because of rarely exercise</h1>
                     </div>
-                    <div className="shadow-2xl rounded-xl p-5 my-3">
+                    <div className="shadow-2xl dark:shadow-slate-900 rounded-xl p-5 my-3 dark:bg-gray-50">
                         <h1>Don't give up in order to get a healthy and ideal body</h1>
                     </div>
-                    <div className="shadow-2xl rounded-xl p-5 my-3">
+                    <div className="shadow-2xl dark:shadow-slate-900 rounded-xl p-5 my-3 dark:bg-gray-50">
                         <h1>Become addicted to the exercise that is given</h1>
                     </div>
                 </motion.div>

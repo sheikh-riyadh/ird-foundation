@@ -20,7 +20,7 @@ export default function Morning() {
                             }
                         }
                     >
-                        <button type="button" className="text-white font-medium text-sm text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700">
+                        <button type="button" className="text-white font-medium text-sm text-center inline-flex items-center">
                             Get Started
                         </button>
                         <FaArrowRight className="text-white justify-end lg:ml-5 text-base" />
