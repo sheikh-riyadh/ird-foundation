@@ -14,7 +14,7 @@ export default function Healthy() {
                 </div>
             </div>
 
-            <motion.div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-20 rounded-3xl bg-gradient-to-r from-[#6462F0] to-[#9190E9] py-8 px-8 lg:py-20 lg:px-20"
+            <motion.div className="grid grid-cols-1 lg:grid-cols-3 gap-5 xl:gap-20 rounded-3xl bg-gradient-to-r from-[#6462F0] to-[#9190E9] py-8 px-8 lg:py-14 xl:py-20 lg:px-14 xl:px-20"
 
                 initial="hidden"
                 whileInView="visible"

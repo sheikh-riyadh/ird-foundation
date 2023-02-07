@@ -13,7 +13,7 @@ export default function Banner() {
             <div className="my-12">
                 <h1 className="text-[28px] lg:text-[56px] font-bold leading-tight">Healthy in side <span className="text-[#6765F0]">fresh</span> out side</h1>
                 <p className="my-6 text-[#7B787C] text-xs lg:text-base tracking-wider leading-normal">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
-                <motion.div className="lg:w-8/12 grid gap-5 grid-cols-2 mb-16"
+                <motion.div className="lg:w-10/12 xl:w-8/12 grid gap-5 grid-cols-2 mb-16"
                     initial="hidden"
                     whileInView="visible"
                     viewport={{ once: true, amount: 0.5 }}

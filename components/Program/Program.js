@@ -4,7 +4,7 @@ export default function Program() {
     return (
         <div className="mx-5 lg:mx-12 xl:mx-24 my-16">
             <h1 className="font-bold text-[28px] lg:text-[46px] text-start lg:font-normal leading-normal lg:text-center my-12">Programs that can <br /> be taken</h1>
-            <div className="grid grid-cols-1 lg:grid-cols-3 mx-5 gap-8 lg:gap-14">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 xl:gap-14">
                 <motion.div className="flex justify-center items-center gap-5 "
                     initial="hidden"
                     whileInView="visible"
@@ -17,7 +17,7 @@ export default function Program() {
                         }
                     }
                 >
-                    <div className="p-5 bg-gradient-to-r from-[#6462F0] to-[#9190E9] w-3/12 rounded-full">
+                    <div className="p-3 lg:p-3 xl:p-5 bg-gradient-to-r from-[#6462F0] to-[#9190E9] w-3/12 rounded-full">
                         <Image alt="Logo" src={`/assets/program-logo-1.png`} width={70} height={70}></Image>
                     </div>
                     <div>
@@ -37,7 +37,7 @@ export default function Program() {
                         }
                     }
                 >
-                    <div className="p-5 bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF] w-3/12 rounded-full">
+                    <div className="p-3 lg:p-3 xl:p-5 bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF] w-3/12 rounded-full">
                         <Image alt="Logo" src={`/assets/program-logo-2.png`} width={70} height={70}></Image>
                     </div>
                     <div>
@@ -57,7 +57,7 @@ export default function Program() {
                         }
                     }
                 >
-                    <div className="p-5 bg-gradient-to-r from-[#DD69C7] to-[#FFC0F3] w-3/12 rounded-full">
+                    <div className="p-3 lg:p-3 xl:p-5 bg-gradient-to-r from-[#DD69C7] to-[#FFC0F3] w-3/12 rounded-full">
                         <Image alt="Logo" src={`/assets/program-logo-3.png`} width={70} height={70}></Image>
                     </div>
                     <div>
@@ -77,7 +77,7 @@ export default function Program() {
                         }
                     }
                 >
-                    <div className="p-5 bg-gradient-to-r from-[#DD69C7] to-[#FFC0F3] w-3/12 rounded-full">
+                    <div className="p-3 lg:p-3 xl:p-5 bg-gradient-to-r from-[#DD69C7] to-[#FFC0F3] w-3/12 rounded-full">
                         <Image alt="Logo" src={`/assets/program-logo-4.png`} width={70} height={70}></Image>
                     </div>
                     <div>
@@ -97,7 +97,7 @@ export default function Program() {
                         }
                     }
                 >
-                    <div className="p-5 bg-gradient-to-r from-[#6462F0] to-[#9190E9] w-3/12 rounded-full">
+                    <div className="p-3 lg:p-3 xl:p-5 bg-gradient-to-r from-[#6462F0] to-[#9190E9] w-3/12 rounded-full">
                         <Image alt="Logo" src={`/assets/program-logo-5.png`} width={70} height={70}></Image>
                     </div>
                     <div>
@@ -117,7 +117,7 @@ export default function Program() {
                         }
                     }
                 >
-                    <div className="p-5 bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF] w-3/12 rounded-full">
+                    <div className="p-3 lg:p-3 xl:p-5 bg-gradient-to-r from-[#4BACE1] to-[#D8F1FF] w-3/12 rounded-full">
                         <Image alt="Logo" src={`/assets/program-logo-6.png`} width={70} height={70}></Image>
                     </div>
                     <div>
