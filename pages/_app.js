@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }) {
       <main className={poppins.className}>
         <Head>
           <link rel="shortcut icon" href="assets/dance.png" />
-          <title>Home</title>
+          <title>Gym baram</title>
         </Head>
         <Component {...pageProps} />
       </main>
