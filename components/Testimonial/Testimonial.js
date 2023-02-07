@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Testimonial() {
     SwiperCore?.use([Autoplay])
     return (
-        <div className='mx-5 lg:mx-24 my-28'>
+        <div className='mx-5 lg:mx-12 xl:mx-24 my-28'>
             <h1 className='font-bold text-[28px] lg:text-[46px] text-start lg:font-normal leading-normal lg:text-center mb-5'>Testimonials</h1>
             <Swiper
                 modules={[Pagination]}
@@ -20,8 +20,8 @@ export default function Testimonial() {
                 {
                     [1, 2, 3, 4].map((value, index) => {
                         return <SwiperSlide key={index}>
-                            <div className='grid grid-cols-1 gap-10 lg:grid-cols-2'>
-                                <div className='shadow-lg p-5 lg:p-10 lg:mb-16 rounded-xl'>
+                            <div className='grid grid-cols-1 lg:gap-10 lg:grid-cols-2'>
+                                <div className='shadow-lg p-5 lg:p-10 mb-10 lg:mb-16 rounded-xl'>
                                     <q className='italic text-[#7B787C] text-xs lg:text-base'>It's great to be able to work out from home and be helped by the gymbaran. My day feels fresher when I regularly participate in this fun sport. Good luck to the coaches.</q>
 
                                     <div>
@@ -42,7 +42,7 @@ export default function Testimonial() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='shadow-lg p-5 lg:p-10 lg:mb-16 rounded-xl'>
+                                <div className='shadow-lg p-5 lg:p-10 mb-10 lg:mb-16 rounded-xl'>
                                     <q className='italic text-[#7B787C] text-xs lg:text-base'>It's great to be able to work out from home and be helped by the gymbaran. My day feels fresher when I regularly participate in this fun sport. Good luck to the coaches.</q>
 
                                     <div>

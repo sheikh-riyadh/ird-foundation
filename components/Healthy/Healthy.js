@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa"
 
 export default function Healthy() {
     return (
-        <div className="mx-5 lg:mx-24">
+        <div className="mx-5 lg:mx-12 xl:mx-24">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-10 my-24">
                 <div>
                     <h2 className="font-bold text-[28px] lg:text-[46px] text-start lg:font-normal leading-normal">Healthy in side <br /> fresh out side</h2>

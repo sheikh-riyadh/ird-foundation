@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export default function LoseFat() {
     return (
 
-        <div className="flex mx-5 flex-col-reverse lg:flex-row lg:mx-24 gap-10 justify-center items-center my-24">
+        <div className="flex mx-5 flex-col-reverse lg:flex-row lg:mx-12 xl:mx-24 gap-10 justify-center items-center my-24">
             <motion.div
                 initial="hidden"
                 whileInView="visible"

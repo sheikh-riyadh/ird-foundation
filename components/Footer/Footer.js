@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 py-16 gap-5 px-5 lg:px-24 bg-[#1C3764]">
             <div className="lg:col-span-6">
                 <div>
-                    <a href="https://flowbite.com/" className="flex items-center">
+                    <a href="/" className="flex items-center">
                         <span className="self-center text-xl whitespace-nowrap dark:text-white text-[#6765F0] bg-white p-2 rounded-lg">Gym</span>
                         <span className="self-center text-xl whitespace-nowrap dark:text-white text-white ml-1">baran</span>
                     </a>

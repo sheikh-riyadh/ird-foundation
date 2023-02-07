@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 export default function Banner() {
     SwiperCore?.use([Autoplay])
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen px-5 lg:px-24 justify-center items-center bg-gradient-to-r from-[#fcf7ff] to-white">
+        <div className="grid grid-cols-1 lg:grid-cols-2 min-h-screen px-5 lg:px-12 xl:px-24 justify-center items-center bg-gradient-to-r from-[#fcf7ff] to-white">
             <div className="my-12">
                 <h1 className="text-[28px] lg:text-[56px] font-bold leading-tight">Healthy in side <span className="text-[#6765F0]">fresh</span> out side</h1>
                 <p className="my-6 text-[#7B787C] text-xs lg:text-base tracking-wider leading-normal">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
