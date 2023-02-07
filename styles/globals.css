@@ -29,6 +29,24 @@ a {
   }
 }
 
+body::-webkit-scrollbar-track {
+  background: #dadada;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar {
+  width: 14px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(#DD69C7, #FFC0F3);
+  /* color of the scroll thumb */
+  border-radius: 20px;
+}
+
+
+/* Responsive slider positon here */
 @media only screen and (min-width: 1024px) and (max-width: 1536px) {
   .swiper-pagination {
     position: absolute;
