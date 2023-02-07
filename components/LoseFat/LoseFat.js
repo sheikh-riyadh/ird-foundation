@@ -20,7 +20,7 @@ export default function LoseFat() {
                 <Image alt="Banner_image" src={'/assets/lose-fat-image.png'} width={1200} height={600}></Image>
             </motion.div>
             <div>
-                <h1 className="text-3xl lg:text-5xl leading-snug">Best full body <br /> workout to lose fat</h1>
+                <h1 className="font-bold text-[28px] lg:text-[46px] text-start lg:font-normal leading-normal">Best full body <br /> workout to lose fat</h1>
                 <p className="my-6 text-[#7B787C] text-xs lg:text-base tracking-wider leading-tight">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.</p>
                 <div className="w-6/12 lg:w-4/12 grid gap-5 mb-16">
                     <motion.div className="flex justify-between items-center py-3 px-5 lg:py-4 lg:px-6 bg-[#264373] rounded-lg shadow-2xl"

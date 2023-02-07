@@ -16,10 +16,10 @@ export default function Working() {
                     }
                 }
             >
-                <Image alt="Banner_image" className="lg:-ml-20" src={'/assets/works-image3.png'} width={1000} height={800}></Image>
+                <Image alt="Banner_image" className="lg:-ml-20" src={'/assets/works-image3.png'} width={800} height={800}></Image>
             </motion.div>
             <div>
-                <h1 className="text-3xl lg:text-5xl leading-snug mb-8">How it works?</h1>
+                <h1 className="font-bold text-[28px] lg:text-[46px] text-start lg:font-normal leading-relaxed mb-8">How it works?</h1>
                 <motion.div className="flex flex-col text-[#7B787C]"
                     initial="hidden"
                     whileInView="visible"

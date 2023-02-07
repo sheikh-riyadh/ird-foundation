@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Program() {
     return (
         <div className="mx-5 lg:mx-24 my-16">
-            <h1 className="text-3xl lg:text-5xl text-start lg:text-center my-12">Programs that can <br /> be taken</h1>
+            <h1 className="font-bold text-[28px] lg:text-[46px] text-start lg:font-normal leading-normal lg:text-center my-12">Programs that can <br /> be taken</h1>
             <div className="grid grid-cols-1 lg:grid-cols-3 mx-5 gap-8 lg:gap-14">
                 <motion.div className="flex justify-center items-center gap-5 "
                     initial="hidden"
