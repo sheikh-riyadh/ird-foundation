@@ -21,8 +21,8 @@ export default function Program() {
                         <Image alt="Logo" src={`/assets/program-logo-1.png`} width={70} height={70}></Image>
                     </div>
                     <div>
-                        <h2 className="font-bold">Gets ABS in 2 weeks</h2>
-                        <p className="text-[#7B787C]">Exercise is a very important need for our body. </p>
+                        <h2 className="font-bold text-base">Gets ABS in 2 weeks</h2>
+                        <p className="text-[#7B787C] text-[14px] lg:text-base">Exercise is a very important need for our body. </p>
                     </div>
                 </motion.div>
                 <motion.div className="flex justify-center items-center gap-5 "
@@ -41,8 +41,8 @@ export default function Program() {
                         <Image alt="Logo" src={`/assets/program-logo-2.png`} width={70} height={70}></Image>
                     </div>
                     <div>
-                        <h2 className="font-bold">25 Mins full body workout</h2>
-                        <p className="text-[#7B787C]">Exercise is a very important need for our body. </p>
+                        <h2 className="font-bold text-base">25 Mins full body workout</h2>
+                        <p className="text-[#7B787C] text-[14px] lg:text-base">Exercise is a very important need for our body. </p>
                     </div>
                 </motion.div>
                 <motion.div className="flex justify-center items-center gap-5 "
@@ -61,8 +61,8 @@ export default function Program() {
                         <Image alt="Logo" src={`/assets/program-logo-3.png`} width={70} height={70}></Image>
                     </div>
                     <div>
-                        <h2 className="font-bold">10 Mins toned arms workout</h2>
-                        <p className="text-[#7B787C]">Exercise is a very important need for our body. </p>
+                        <h2 className="font-bold text-base">10 Mins toned arms workout</h2>
+                        <p className="text-[#7B787C] text-[14px] lg:text-base">Exercise is a very important need for our body. </p>
                     </div>
                 </motion.div>
                 <motion.div className="flex justify-center items-center gap-5 "
@@ -81,8 +81,8 @@ export default function Program() {
                         <Image alt="Logo" src={`/assets/program-logo-4.png`} width={70} height={70}></Image>
                     </div>
                     <div>
-                        <h2 className="font-bold">15 Mins full body fat burn</h2>
-                        <p className="text-[#7B787C]">Exercise is a very important need for our body. </p>
+                        <h2 className="font-bold text-base">15 Mins full body fat burn</h2>
+                        <p className="text-[#7B787C] text-[14px] lg:text-base">Exercise is a very important need for our body. </p>
                     </div>
                 </motion.div>
                 <motion.div className="flex justify-center items-center gap-5 "
@@ -101,8 +101,8 @@ export default function Program() {
                         <Image alt="Logo" src={`/assets/program-logo-5.png`} width={70} height={70}></Image>
                     </div>
                     <div>
-                        <h2 className="font-bold">25 Mins HIIT workout</h2>
-                        <p className="text-[#7B787C]">Exercise is a very important need for our body. </p>
+                        <h2 className="font-bold text-base">25 Mins HIIT workout</h2>
+                        <p className="text-[#7B787C] text-[14px] lg:text-base">Exercise is a very important need for our body. </p>
                     </div>
                 </motion.div>
                 <motion.div className="flex justify-center items-center gap-5 "
@@ -121,8 +121,8 @@ export default function Program() {
                         <Image alt="Logo" src={`/assets/program-logo-6.png`} width={70} height={70}></Image>
                     </div>
                     <div>
-                        <h2 className="font-bold">Intense lower Abs workout</h2>
-                        <p className="text-[#7B787C]">Exercise is a very important need for our body. </p>
+                        <h2 className="font-bold text-base">Intense lower Abs workout</h2>
+                        <p className="text-[#7B787C] text-[14px] lg:text-base">Exercise is a very important need for our body. </p>
                     </div>
                 </motion.div>
             </div>

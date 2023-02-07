@@ -43,7 +43,7 @@ export default function Healthy() {
                         <Image src={'/assets/healthy-logo1.png'} width={30} height={30} alt="Healthy_image"></Image>
                     </motion.div>
                     <div>
-                        <p className="font-bold text-xl mb-2 text-white">Get that 11 line<br /> in 30 days</p>
+                        <p className="font-bold text-base lg:text-xl mb-2 text-white ">Get that 11 line<br /> in 30 days</p>
                         <button type="button" className="text-white text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Learn more
                             <FaArrowRight className="ml-3"></FaArrowRight>
@@ -66,7 +66,7 @@ export default function Healthy() {
                         <Image src={'/assets/healthy-logo2.png'} width={30} height={30} alt="Healthy_image"></Image>
                     </motion.div>
                     <div>
-                        <p className="font-bold text-xl mb-2 text-white">14 Days <br />sherd challenge</p>
+                        <p className="font-bold text-base lg:text-xl mb-2 text-white">14 Days <br />sherd challenge</p>
                         <button type="button" className="text-base text-white text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Learn more
                             <FaArrowRight className="ml-3"></FaArrowRight>
@@ -89,7 +89,7 @@ export default function Healthy() {
                         <Image src={'/assets/healthy-logo3.png'} width={30} height={30} alt="Healthy_image"></Image>
                     </motion.div>
                     <div>
-                        <p className="font-bold text-xl mb-2 text-white">Get flat belly <br /> in 30 days</p>
+                        <p className="font-bold text-base lg:text-xl mb-2 text-white">Get flat belly <br /> in 30 days</p>
                         <button type="button" className="text-white text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             Learn more
                             <FaArrowRight className="ml-3"></FaArrowRight>

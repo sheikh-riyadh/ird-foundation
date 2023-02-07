@@ -10,7 +10,7 @@ export default function Footer() {
                         <span className="self-center text-xl whitespace-nowrap dark:text-white text-white ml-1">baran</span>
                     </a>
                 </div>
-                <p className="my-5 text-[#f8f8f8]">We take care of your health with <br /> regular and fun exercise</p>
+                <p className="my-5 text-[#f8f8f8] text-xs lg:text-base">We take care of your health with <br /> regular and fun exercise</p>
                 <div className="flex gap-5">
                     <FaFacebook className="text-4xl text-white bg-[#E275CD] p-2" />
                     <FaInstagram className="text-4xl text-white bg-[#E275CD] p-2" />
