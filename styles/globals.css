@@ -18,3 +18,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.swiper-pagination {
+  position: absolute;
+  text-align: right !important;
+  transition: .3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
