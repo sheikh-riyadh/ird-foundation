@@ -45,6 +45,7 @@ WEBSITE DETAILS
     1. Tailwind CSS
     2. Swiper slider
     3. Framer Motion
+    4. Next JS
 
 LIVE WEBSITE LINK
 =================
